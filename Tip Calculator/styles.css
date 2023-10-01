@@ -1,0 +1,63 @@
+/**********************
+    Global Settings
+**********************/
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(35, 35, 35);
+}
+
+body {
+    background-image: url(/pexels-fruit.jpg);
+}
+
+main {
+    background-color: rgb(236, 170, 77);
+    outline: rgb(35, 35, 35) solid 3px;
+    border-radius: 10px;
+    margin: 10% 25%;
+    padding: 5vh 3vw;
+    width: 50vw;
+    height: 60vh;
+}
+
+header {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    margin: 10vh 0;
+    font-size: 1.5em;
+}
+
+input,
+button {
+    border: rgb(35, 35, 35) solid 2px;
+    border-radius: 3px;
+    padding: .75vh 1vw;
+    font-family: "Century Gothic", "Courier New", Arial, Helvetica, sans-serif;
+}
+
+#tip_button {
+    background-color: lightgreen;
+}
+
+#reset_button {
+    border-color: lightgreen;
+    color: snow;
+    background-color: rgb(35, 35, 35);
+}
+
+#bill_amount {
+    width: 15%;
+}
+
+#tip_results {
+    font-style: italic;
+}
